@@ -27,6 +27,5 @@ class MainActivity : AppCompatActivity() {
         buttonBackground.setOnClickListener {
             textView.setBackgroundColor(android.graphics.Color.YELLOW)
         }
-        //Comment for revert
     }
 }
