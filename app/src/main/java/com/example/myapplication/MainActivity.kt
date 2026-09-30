@@ -13,9 +13,14 @@ class MainActivity : AppCompatActivity() {
 
         val textView = findViewById<TextView>(R.id.textView)
         val button = findViewById<Button>(R.id.button)
+        val buttonColor = findViewById<Button>(R.id.buttonColor)
 
         button.setOnClickListener {
             textView.text = "Sveiki! Tai mano pirmoji Android programele."
+        }
+
+        buttonColor.setOnClickListener {
+            textView.setTextColor(android.graphics.Color.BLUE)
         }
     }
 }
